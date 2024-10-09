@@ -1,5 +1,5 @@
 {
-  "name": "PRINXE-MD",
+  "name": "PRINXE--MD",
   "description": "PRINXE-MD A SUPER WHATSAPP USER BOT",
   "keywords": ["java", "bot", "whatsapp-bot", "whatsapp-automation"],
   "repository": "https://github.com/PRINCE-GDS/PRINXE-MD",
@@ -38,6 +38,21 @@
       },
     "ANTI_LINK": {
       "description": "Make true false to ON/OFF antilink",
+      "required": false,
+      "value": "true"
+      },
+    "AUTOREAD": {
+      "description": "Make true to auto check users messages",
+      "required": false,
+      "value": "true"
+      },
+    "STATUS_MESSAGE": {
+      "description": "Type your status reply message to send auto message to your contacts status",
+      "required": false,
+      "value": "🩵ʏᴏᴜʀ sᴛᴀᴛᴜs sᴇᴇɴ sᴜᴄᴄᴇssғᴜʟʟʏ😍\n😎ʙʏ *ᴘʀɪɴᴄᴇ ᴍᴅ* ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ🩵"
+      },
+    "STATUS_REPLY": {
+      "description": "Make it true or false to turn on/off Auto status message to your contacts",
       "required": false,
       "value": "true"
       },
